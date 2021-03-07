@@ -2,7 +2,7 @@
 name = "marketdata-cli"
 version = "0.1.0"
 description = "simple cli to get market data"
-authors = ["Andre"]
+authors = ["r0nny8000"]
 license = "GPL 3.0"
 
 [tool.poetry.dependencies]

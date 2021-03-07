@@ -1,6 +1,8 @@
-
+import yfinance
 
 
 def ticker(symbol):
-    return 'HELLO'
+    s = yfinance.Ticker(symbol)
+    return s.dividends
+    
 

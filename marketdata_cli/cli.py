@@ -4,8 +4,8 @@ import fire
 
 from marketdata_cli.yfinancedata import ticker
 
-def ticker(symbol):
-    print(symbol + ': ' + ticker(symbol))
+def getdata(symbol):
+    print(ticker(symbol))
 
 if __name__ == '__main__':
-    fire.Fire(hello)
+    fire.Fire(getdata)
