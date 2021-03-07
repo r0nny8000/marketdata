@@ -1,4 +1,5 @@
-# yah00financ3-cli
+MARKETDATA CLI
+==============
 
 Getting started
 ---------------
