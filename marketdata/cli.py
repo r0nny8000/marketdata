@@ -9,7 +9,8 @@ def getdata(symbol='MMM'):
     result = ticker(symbol)
 
     print(json.dumps(result, indent=4))
-    print(result['sector'])
+    print("----")
+    print(result['longName'] + " " + result['sector'] + " " + result['industry'])
 
 if __name__ == '__main__':
     fire.Fire(getdata)
