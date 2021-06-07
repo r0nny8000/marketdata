@@ -12,8 +12,6 @@ def getdata(symbol='MMM'):
     print("----")
     print(result['longName'] + " " + result['sector'] + " " + result['industry'])
 
-def main():
-  fire.Fire(getdata)
-
 if __name__ == '__main__':
-     main()
+    fire.Fire()
+    
