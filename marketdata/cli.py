@@ -8,9 +8,12 @@ from marketdata.yfinanceapi import ticker
 def getdata(symbol='MMM'):
     result = ticker(symbol)
 
-    print(json.dumps(result, indent=4))
+    # print(json.dumps(result, indent=4))
     print("----")
     print(result['longName'] + " " + result['sector'] + " " + result['industry'])
 
+def main():
+  fire.Fire(getdata)
+
 if __name__ == '__main__':
-    fire.Fire(getdata)
+     main()
