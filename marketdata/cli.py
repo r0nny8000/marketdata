@@ -3,7 +3,7 @@
 import fire
 import json
 
-from marketdata_cli.yfinancedata import ticker
+from marketdata.yfinanceapi import ticker
 
 def getdata(symbol='MMM'):
     result = ticker(symbol)

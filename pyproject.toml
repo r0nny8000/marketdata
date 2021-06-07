@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "marketdata-cli"
+name = "marketdata"
 version = "0.1.0"
-description = "simple cli to get market data"
+description = "simple tools to get market data"
 authors = ["r0nny8000"]
 license = "GPL 3.0"
 

@@ -12,7 +12,7 @@ Install dependencies
 Execute
 
     poetry shell
-    cd marketdata_cli
+    cd marketdata
     ./cli.py --help
 
 Install a new module
